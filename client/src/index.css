@@ -1,0 +1,93 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0eae9;
+}
+
+button {
+  outline: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.vendor-page input {
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.vendor-search-create {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.vendor-search-create .search-bar {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 50%;
+}
+
+.vendor-search-create i {
+  font-size: 1.25rem;
+}
+
+/* .vendor-search-create i:hover {
+  cursor: pointer;
+  opacity: 0.75;
+} */
+
+.vendor-search-create input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+select {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+}
+
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.vendor-proposals .loader {
+  box-sizing: border-box;
+  border: 0.75rem solid #f3f3f3; /* Light grey */
+  border-top: 0.75rem solid green;
+  width: 6rem;
+  height: 6rem;
+  animation: spin 0.95s linear infinite;
+  position: relative;
+  top: 7rem;
+}

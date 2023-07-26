@@ -1,0 +1,61 @@
+.proposal-tile {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  /* width: 100%; */
+  background-color: #fff;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  height: 100%;
+}
+
+.proposal-tile:hover {
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  opacity: 0.8;
+}
+
+.proposal-tile:active {
+  opacity: 0.65;
+}
+
+.proposal-thumbnail-container {
+  box-sizing: border-box;
+  height: 8rem;
+}
+
+.proposal-tile img {
+  box-sizing: border-box;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tile-info {
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* background-color: white; */
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.tile-info > div:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.tile-info div:nth-child(3) {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #34a853;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile-info > div:nth-child(3) > div:nth-child(1) {
+  color: black;
+}

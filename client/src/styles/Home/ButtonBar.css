@@ -1,0 +1,52 @@
+.sign-container .button-bar {
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sign-container .button-bar .signup {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #4285f4;
+}
+
+.sign-container .button-bar .signup:hover {
+  cursor: pointer;
+}
+
+.sign-container .button-bar .signup:active {
+  color: #ccc;
+}
+
+.sign-container .button-bar button {
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: #4285f4;
+  color: white;
+  opacity: 0.8;
+}
+
+.sign-container .button-bar button:hover {
+  opacity: 1;
+}
+
+.sign-container .button-bar button:active {
+  opacity: 0.9;
+}
+
+.login-bar-button {
+  display: flex;
+}
+
+.login-bar-button .loader {
+  border: 2px solid #fff;
+  border-top: 2px solid #4285f4;
+  border-bottom: 2px solid #4285f4;
+  animation: spin 0.75s linear infinite;
+}

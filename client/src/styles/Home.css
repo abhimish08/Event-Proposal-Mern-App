@@ -1,0 +1,50 @@
+.home-container {
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+.home-page-logo {
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #4285F4;
+  display: inline-block;
+  width: fit-content;
+  color: #fff;
+  position: absolute;
+  top: 3rem;
+  left: 9rem;
+}
+
+.home-container h1 {
+  margin: 0;
+  font-size: 2.75rem;
+  line-height: 4.25rem;
+}
+
+.home-left-pane {
+  box-sizing: border-box;
+  display: flex;
+  width: 50%;
+  padding-left: 9rem;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  /* font-size: 1.5rem; */
+  /* line-height: 5rem; */
+}
+
+.home-right-pane {
+  box-sizing: border-box;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}

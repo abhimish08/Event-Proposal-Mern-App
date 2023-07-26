@@ -1,0 +1,20 @@
+{
+  "name": "event_proposal_project",
+  "version": "1.0.0",
+  "description": "Event Proposal MERN App",
+  "main": "index.js",
+  "scripts": {
+    "build-server": "cd backend && npm install",
+    "start-server": "cd backend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhaykamath/event-proposal-project.git"
+  },
+  "author": "M Abhay Kamath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhaykamath/event-proposal-project/issues"
+  },
+  "homepage": "https://github.com/abhaykamath/event-proposal-project#readme"
+}

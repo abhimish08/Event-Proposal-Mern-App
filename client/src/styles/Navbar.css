@@ -1,0 +1,72 @@
+.navbar-custom {
+  box-sizing: border-box;
+  /* border-bottom: 1px solid #ccc; */
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+.navbar-custom .username {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #4285f4;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-profile {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-picture {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.navbar-custom button {
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  background-color: #4e555e;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-custom button:active {
+  opacity: 0.75;
+}
+
+.logout-button .loader {
+  box-sizing: border-box;
+  border: 2px solid #4e555e;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  animation: spin 0.8s linear infinite;
+}

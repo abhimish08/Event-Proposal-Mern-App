@@ -1,0 +1,27 @@
+.user-selected-proposals-container {
+  box-sizing: border-box;
+  padding: 2rem 8rem;
+  padding-bottom: 0;
+}
+
+.selected-proposals-header {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.selected-proposals-grid {
+  box-sizing: border-box;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  gap: 2rem;
+}
+
+.selected-proposals-grid .tile-info div {
+  color: white;
+}
+
+.selected-proposals-grid .tile-info > div:nth-child(3) > div:nth-child(1) {
+  color: white;
+}

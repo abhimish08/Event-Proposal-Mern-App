@@ -1,0 +1,64 @@
+.modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center;
+}
+.vendor-container {
+  box-sizing: border-box;
+  min-height: 92vh;
+  background-color: #f0eae9;
+  /* background-color: white; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  /* align-items: center; */
+  /* margin-top: 5%; */
+}
+.vendor-page {
+  text-align: center;
+}
+.vendor-search {
+  display: inline-block;
+  width: 78%;
+  border: none;
+}
+
+#vendor-filter,
+.vendor-proposal-head {
+  padding: 15px;
+}
+.vendor-proposal-head {
+  font-weight: bolder;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.vendor-proposals-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.vendor-proposals {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.modal-dialog {
+  max-width: 80% !important;
+}
+
+.modal-body {
+  box-sizing: border-box;
+  padding: 0 !important;
+}
+.modal-title {
+  position: relative;
+  left: 45%;
+}

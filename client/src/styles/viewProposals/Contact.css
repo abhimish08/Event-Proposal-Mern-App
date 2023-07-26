@@ -1,0 +1,35 @@
+.contact-grid-item {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1.5rem;
+}
+
+.contact-grid-item .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-grid-item .profile-picture {
+    width: 4rem;
+    height: 4rem;
+}
+
+.contact-grid-item i {
+    font-size: 2rem;
+}
+
+.contact-grid-item .number {
+  background-color: #ccc;
+  /* color: white; */
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+}
